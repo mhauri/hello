@@ -3,10 +3,19 @@
     <JobCard
         name="test:projects:blog"
         status="passed"
-        description="I write about the real factors that make developers productive, rooted in two decades of experience across startups, scale-ups, and enterprises, and expose how culture, process, and organizational dysfunction matter far more than tools."
-        :tags="['Pragmatic DX','Pragmatic Developer Experience']"
+        description="I write about the real forces that shape developer productivity, drawing on two decades of work in startups, scale-ups, and large organisations. My focus is on how culture, processes, and organisational behaviour influence the developer experience, often far more than the tools teams use."
+        :tags="['blog.pragmaticdx.com','Pragmatic Developer Experience']"
         duration="13.0s"
         href="https://blog.pragmaticdx.com/"
+    />
+
+    <JobCard
+        name="test:projects:dx-radar"
+        status="passed"
+        description="The DX Radar gathers and highlights the latest ideas, research, and discussions on developer experience from across the web, making it easier to stay informed without having to search for everything yourself."
+        :tags="['radar.pragmaticdx.com','DX Radar']"
+        duration="5.0s"
+        href="https://radar.pragmaticdx.com/"
     />
 
     <TerminalSection
@@ -20,3 +29,5 @@
     />
   </div>
 </template>
+<script setup lang="ts">
+</script>

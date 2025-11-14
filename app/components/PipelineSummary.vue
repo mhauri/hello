@@ -9,12 +9,12 @@
       <div>
         <p class="text-muted-foreground mb-1">Total Duration</p>
         <p class="text-foreground font-mono font-semibold">
-          <TimerComponent :start="88"/>
+          <TimerComponent :start="95"/>
         </p>
       </div>
       <div class="text-left md:text-right">
         <p class="text-muted-foreground mb-1">Jobs Completed</p>
-        <p class="text-foreground font-mono font-semibold">6 / 8</p>
+        <p class="text-foreground font-mono font-semibold">7 / 9</p>
       </div>
     </div>
   </div>

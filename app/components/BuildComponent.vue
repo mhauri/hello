@@ -9,7 +9,7 @@
     <JobCard
         name="compile:further-education"
         status="passed"
-        description="Cyber Security Specialist (Swiss Federal Examination)"
+        description="Cyber Security Specialist (Swiss Federal Examination). The education provided in-depth training in security architecture, risk analysis, incident handling, and the practical protection of modern IT environments. It also strengthened my ability to assess complex systems, identify realistic threats, and apply security controls that align with organisational needs."
         :tags="['Digital Forensics', 'System Analysis', 'Incident Response', 'Threat Management', 'Team Development', 'Leadership']"
         duration="3.0s"
     />
@@ -17,6 +17,7 @@
     <JobCard
         name="compile:expertise"
         status="passed"
+        description="My experience includes working with AI-assisted development, strengthening developer productivity, and building the foundations that enable engineering teams to move with confidence. This covers API design, DevOps practices, and the use of metrics such as DORA and SPACE to understand how teams actually work"
         :tags="['AI-Assisted Development', 'Developer Productivity','Engineering Enablement', 'API Design', 'DORA Metrics', 'SPACE Framework', 'DevOps', 'Coaching']"
         duration="41.3s"
     />

@@ -36,7 +36,7 @@ import { Activity, GitBranch, Clock } from "lucide-vue-next"
           </div>
           <div class="flex items-center gap-2 text-xs text-muted-foreground">
             <Clock class="h-3 w-3" />
-            <span><TimerComponent :start="88"/></span>
+            <span><TimerComponent :start="93"/></span>
           </div>
         </div>
       </div>

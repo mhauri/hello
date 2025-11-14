@@ -11,7 +11,7 @@
       </PipelineStage>
 
       <!-- Test Stage -->
-      <PipelineStage title="test" status="passed" duration="13s">
+      <PipelineStage title="test" status="passed" duration="18s">
         <TestComponent/>
       </PipelineStage>
 
