@@ -18,9 +18,9 @@ import { Activity, GitBranch, Clock } from "lucide-vue-next"
               />
             </div>
             <div>
-              <h1 class="text-sm font-semibold text-foreground">
+              <span class="text-sm font-semibold text-foreground">
                 mhauri / hello
-              </h1>
+              </span>
               <div class="flex items-center gap-2 text-xs text-muted-foreground">
                 <GitBranch class="h-3 w-3" />
                 <span>main</span>
@@ -36,7 +36,7 @@ import { Activity, GitBranch, Clock } from "lucide-vue-next"
           </div>
           <div class="flex items-center gap-2 text-xs text-muted-foreground">
             <Clock class="h-3 w-3" />
-            <span><Timer :start="88"/></span>
+            <span><TimerComponent :start="88"/></span>
           </div>
         </div>
       </div>

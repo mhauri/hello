@@ -74,9 +74,9 @@ const numericDuration = computed(() => Number(props.duration ?? 0))
       <!-- Stage content -->
       <div class="flex-1 min-w-0">
         <div class="flex items-center justify-between mb-3">
-          <h3 class="text-lg font-semibold text-foreground">{{ props.title }}</h3>
+          <span class="text-lg font-semibold text-foreground">{{ props.title }}</span>
           <span class="text-xs text-muted-foreground font-mono">
-            <Timer v-if="numericDuration === 0" :start="32" />
+            <TimerComponent v-if="numericDuration === 0" :start="32" />
             <template v-else>{{ props.duration }}</template>
           </span>
         </div>

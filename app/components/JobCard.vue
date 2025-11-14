@@ -56,9 +56,9 @@ const config = computed(() => statusConfig[props.status])
       <div class="flex items-start gap-3 min-w-0 flex-1">
         <component :is="config.icon" class="h-4 w-4 mt-0.5 flex-shrink-0" :class="config.color" />
         <div class="min-w-0 flex-1">
-          <h4 class="font-semibold text-foreground text-sm mb-1 font-mono">
+          <span class="font-semibold text-foreground text-sm mb-1 font-mono">
             {{ props.name }}
-          </h4>
+          </span>
           <p
               v-if="props.description"
               class="text-sm text-muted-foreground leading-relaxed"
@@ -74,6 +74,7 @@ const config = computed(() => statusConfig[props.status])
           target="_blank"
           rel="noopener noreferrer"
           class="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity"
+          :title="props.name.split(':').pop()"
       >
         <ExternalLink class="h-4 w-4 text-muted-foreground hover:text-primary" />
       </a>

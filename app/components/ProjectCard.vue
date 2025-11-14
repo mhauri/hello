@@ -26,11 +26,11 @@ const isHovered = ref(false)
     >
       <div class="flex items-start justify-between gap-4">
         <div class="flex-1">
-          <h3
+          <span
               class="mb-2 text-xl font-semibold text-foreground transition-colors group-hover:text-primary"
           >
             {{ props.title }}
-          </h3>
+          </span>
           <p class="mb-4 text-sm leading-relaxed text-muted-foreground">
             {{ props.description }}
           </p>

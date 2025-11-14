@@ -31,5 +31,5 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div>{{ formattedTime }}</div>
+  <span>{{ formattedTime }}</span>
 </template>
