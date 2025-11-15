@@ -32,6 +32,12 @@
   </div>
 </template>
 <script setup lang="ts">
-const today = new Date()
-const buildNumber = `#${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, '0')}${String(today.getDate()).padStart(2, '0')}`
+import { ref, onMounted } from 'vue'
+
+const buildNumber = ref('#...')
+
+onMounted(() => {
+  const today = new Date()
+  buildNumber.value = `#${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, '0')}${String(today.getDate()).padStart(2, '0')}`
+})
 </script>

@@ -10,6 +10,7 @@ const props = defineProps({
 })
 
 const elapsed = ref(props.start)
+const isMounted = ref(false)
 let intervalId = null
 
 // format elapsed time as "Xm Ys"
@@ -20,6 +21,7 @@ const formattedTime = computed(() => {
 })
 
 onMounted(() => {
+  isMounted.value = true
   intervalId = setInterval(() => {
     elapsed.value++
   }, 1000)
@@ -31,5 +33,6 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <span>{{ formattedTime }}</span>
+  <span v-if="isMounted">{{ formattedTime }}</span>
+  <span v-else>{{ formattedTime }}</span>
 </template>
