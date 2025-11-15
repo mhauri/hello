@@ -14,7 +14,7 @@
       </div>
       <div class="text-left md:text-right">
         <p class="text-muted-foreground mb-1">Jobs Completed</p>
-        <p class="text-foreground font-mono font-semibold">7 / 9</p>
+        <p class="text-foreground font-mono font-semibold">5 / 7</p>
       </div>
     </div>
   </div>
