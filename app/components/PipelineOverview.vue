@@ -7,7 +7,7 @@
           <p class="hidden">I'm a Developer Experience Engineer, helping teams build better systems, faster.</p>
         </main>
         <p class="text-sm text-muted-foreground">
-          Pipeline created by <span class="text-foreground font-mono">Marcel Hauri</span> for commit <span
+          Pipeline for commit <span
             class="text-foreground font-mono bg-zinc-700 p-1 text-xs">{{ buildNumber }}</span> in <span
             class="text-foreground font-mono">main</span> branch •
           <span class="text-muted-foreground ml-1">3 stages</span> •
