@@ -10,7 +10,7 @@
           Pipeline for commit <span
             class="text-foreground font-mono bg-zinc-700 p-1 text-xs">{{ buildNumber }}</span> in <span
             class="text-foreground font-mono">main</span> branch •
-          <span class="text-muted-foreground ml-1">3 stages</span> •
+          <span class="text-muted-foreground ml-1">4 stages</span> •
           <span class="text-muted-foreground ml-1">7 jobs</span>
         </p>
       </div>
