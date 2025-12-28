@@ -11,8 +11,12 @@
       </PipelineStage>
 
       <!-- Test Stage -->
-      <PipelineStage title="test" status="passed" duration="18s">
+      <PipelineStage title="test" status="passed" duration="3s">
         <TestComponent/>
+      </PipelineStage>
+
+      <PipelineStage title="publish" status="passed" duration="18s">
+        <PublishComponent/>
       </PipelineStage>
 
       <!-- Deploy Stage -->
@@ -25,3 +29,6 @@
     <FooterComponent/>
   </div>
 </template>
+<script setup lang="ts">
+import PublishComponent from "~/components/PublishComponent.vue";
+</script>

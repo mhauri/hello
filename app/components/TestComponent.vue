@@ -1,31 +1,11 @@
 <template>
   <div class="space-y-3">
     <JobCard
-        name="test:projects:blog"
+        name="test:further-education:cyber-security-specialist"
         status="passed"
-        description="I write about the real forces that shape developer productivity, drawing on two decades of work in startups, scale-ups, and large organisations. My focus is on how culture, processes, and organisational behaviour influence the developer experience, often far more than the tools teams use."
-        :tags="['blog.pragmaticdx.com','Pragmatic Developer Experience']"
-        duration="13.0s"
-        href="https://blog.pragmaticdx.com/"
-    />
-
-    <JobCard
-        name="test:projects:dx-radar"
-        status="passed"
-        description="The DX Radar gathers and highlights the latest ideas, research, and discussions on developer experience from across the web, making it easier to stay informed without having to search for everything yourself."
-        :tags="['radar.pragmaticdx.com','DX Radar']"
-        duration="5.0s"
-        href="https://radar.pragmaticdx.com/"
-    />
-
-    <TerminalSection
-        title="test results"
-        :lines="[
-              '✓ All projects successfully delivered',
-              '✓ 40% improvement in developer satisfaction',
-              '✓ 100+ subscribers',
-              '✓ 99% positive feedback rating'
-            ]"
+        description="Cyber Security Specialist (Swiss Federal Examination). The education provided in-depth training in security architecture, risk analysis, incident handling, and the practical protection of modern IT environments. It also strengthened my ability to assess complex systems, identify realistic threats, and apply security controls that align with organisational needs."
+        :tags="['Digital Forensics', 'System Analysis', 'Incident Response', 'Threat Management', 'Team Development', 'Leadership']"
+        duration="3.0s"
     />
   </div>
 </template>

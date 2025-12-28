@@ -1,21 +1,14 @@
 <template>
   <div class="space-y-3">
     <JobCard
-        name="initialize:profile"
+        name="build:initialize:profile"
         status="passed"
         description="I’ve spent more than twenty years writing software across a wide range of technologies and environments. Over that time, I’ve learned how to design reliable systems, solve complex engineering problems, and support teams through periods of rapid change. Today, I work as a Developer Experience Engineer, focusing on improving the tools, processes, and infrastructure that developers rely on every day. My role is to remove friction, strengthen engineering workflows, and help teams deliver high-quality systems faster and with greater confidence."
         duration="0.7s"
     />
-    <JobCard
-        name="compile:further-education"
-        status="passed"
-        description="Cyber Security Specialist (Swiss Federal Examination). The education provided in-depth training in security architecture, risk analysis, incident handling, and the practical protection of modern IT environments. It also strengthened my ability to assess complex systems, identify realistic threats, and apply security controls that align with organisational needs."
-        :tags="['Digital Forensics', 'System Analysis', 'Incident Response', 'Threat Management', 'Team Development', 'Leadership']"
-        duration="3.0s"
-    />
 
     <JobCard
-        name="compile:expertise"
+        name="build:compile:expertise"
         status="passed"
         description="My experience includes working with AI-assisted development, strengthening developer productivity, and building the foundations that enable engineering teams to move with confidence. This covers API design, DevOps practices, and the use of metrics such as DORA and SPACE to understand how teams actually work"
         :tags="['AI-Assisted Development', 'Developer Productivity','Engineering Enablement', 'API Design', 'DORA Metrics', 'SPACE Framework', 'DevOps', 'Coaching']"
