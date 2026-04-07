@@ -11,7 +11,7 @@
     <JobCard
         name="deploy:social:connect"
         status="pending"
-        description="Building connections with the developer and devex community across multiple platforms, creating space for conversation, collaboration, and the exchange of ideas."
+        description="Building connections with the developer and developer experience community across multiple platforms, creating space for conversation, collaboration, and the exchange of ideas."
         duration="pending"
     />
 

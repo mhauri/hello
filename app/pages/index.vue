@@ -15,10 +15,6 @@
         <TestComponent/>
       </PipelineStage>
 
-      <PipelineStage title="publish" status="passed" duration="18s">
-        <PublishComponent/>
-      </PipelineStage>
-
       <!-- Deploy Stage -->
       <PipelineStage title="deploy" status="running" duration="0">
         <DeployComponent/>
