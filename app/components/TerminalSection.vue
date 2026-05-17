@@ -17,7 +17,7 @@ const props = defineProps<{
       <div
           v-for="(line, index) in props.lines"
           :key="index"
-          class="text-muted-foreground"
+          class="text-xs text-muted-foreground"
       >
         <span class="text-success mr-2">$</span>
         {{ line }}

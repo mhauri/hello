@@ -1,12 +1,12 @@
 <template>
-  <div class="mb-8 bg-card border border-border rounded-lg p-6">
+  <div class="mb-8 bg-card border border-border rounded-lg p-12">
     <div class="flex items-start justify-between mb-4">
       <div>
         <main>
-          <h1 class="text-2xl font-bold text-foreground mb-2">Hey I'm Marcel 👋</h1>
-          <p class="hidden">I'm a Developer Experience Engineer, helping teams build better systems, faster.</p>
+          <h1 class="text-2xl font-bold tracking-tight sm:text-3xl lg:text-4xl text-balance text-foreground mb-2">I help engineering teams move faster — without breaking things.</h1>
+          <p class="pb-2">Marcel Hauri, Developer Experience Engineer</p>
         </main>
-        <p class="text-sm text-muted-foreground">
+        <p class="text-sm text-muted-foreground pt-5 pb-2">
           Pipeline for commit <span
             class="text-foreground font-mono bg-zinc-700 p-1 text-xs">{{ buildNumber }}</span> in <span
             class="text-foreground font-mono">main</span> branch •
@@ -14,7 +14,6 @@
           <span class="text-muted-foreground ml-1">5 jobs</span>
         </p>
       </div>
-      <StatusBadge type="running" label="Running"/>
     </div>
 
     <div class="flex gap-2">

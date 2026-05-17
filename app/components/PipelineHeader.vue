@@ -4,7 +4,7 @@ import { Activity, GitBranch, Clock } from "lucide-vue-next"
 
 <template>
   <div class="border-b border-border bg-card">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-6 max-w-6xl">
       <div class="flex items-center justify-between py-4">
         <div class="flex items-center gap-6">
           <div class="flex items-center gap-3">
@@ -30,10 +30,11 @@ import { Activity, GitBranch, Clock } from "lucide-vue-next"
         </div>
 
         <div class="flex items-center gap-4">
-          <div class="flex items-center gap-2 text-sm text-muted-foreground">
-            <Activity class="h-4 w-4 gl-dot-warn-fg" />
-            <span class="gl-dot-warn-fg font-medium">running</span>
+        <div class="flex items-center gap-2 text-sm text-muted-foreground">
+            <GitBranch class="h-4 w-4 " />
+            <span class="font-medium">main</span>
           </div>
+          <StatusBadge type="running" label="Running"/>
           <div class="flex items-center gap-2 text-xs text-muted-foreground">
             <Clock class="h-3 w-3" />
             <span><TimerComponent :start="83"/></span>
